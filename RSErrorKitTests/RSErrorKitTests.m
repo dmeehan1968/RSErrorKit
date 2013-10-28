@@ -1,34 +1,37 @@
 //
 //  RSErrorKitTests.m
-//  RSErrorKitTests
+//  RSErrorKit
 //
 //  Created by Dave Meehan on 28/10/2013.
 //  Copyright (c) 2013 Replicated Solutions Limited. All rights reserved.
 //
 
-#import <XCTest/XCTest.h>
+#import "Kiwi.h"
+#import "RSErrorKit.h"
 
-@interface RSErrorKitTests : XCTestCase
+SPEC_BEGIN(RSErrorKitSpec)
 
-@end
+describe(@"RSErrorKit", ^{
+	
+    __block RSErrorKit *sut;
+    
+    beforeEach(^{
+		
+        sut = [[RSErrorKit alloc] init];
+        
+    });
+    
+    afterEach(^{
+        
+        sut = nil;
+    });
+    
+    it(@"should exist", ^{
+        
+        [[sut should] beNonNil];
+        
+    });
+    
+});
 
-@implementation RSErrorKitTests
-
-- (void)setUp
-{
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
-
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
-
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
-}
-
-@end
+SPEC_END

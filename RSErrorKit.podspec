@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 	s.name				= 'RSErrorKit'
 	s.version			= '0.0.1'
 	s.summary			= 'Framework for handling NSError on iOS'
-	s.homepage			= 'https://github.com/dmeehan1968/RSErrorKit.git'
+	s.homepage			= 'https://github.com/dmeehan1968/RSErrorKit'
 	s.license			= {
 		:type => 'MIT',
 		:file => 'LICENSE'
