@@ -1,7 +1,7 @@
 
-platform :ios
+platform :ios, '5.0'
 
-podspec :podspec => "../RSErrorKit.podspec"
+podspec
 
 target :RSErrorKitTests, :exclusive => true do
 
