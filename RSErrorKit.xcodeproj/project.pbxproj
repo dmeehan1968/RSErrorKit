@@ -53,7 +53,6 @@
 		A340D53D181E8585001DC47F /* RSErrorKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSErrorKitTests-Info.plist"; sourceTree = "<group>"; };
 		A340D53F181E8585001DC47F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A340D541181E8585001DC47F /* RSErrorKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSErrorKitTests.m; sourceTree = "<group>"; };
-		A340D54C181E8619001DC47F /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		A340D54D181E8694001DC47F /* RSErrorKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RSErrorKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				A340D54D181E8694001DC47F /* RSErrorKit.podspec */,
-				A340D54B181E85E8001DC47F /* Project */,
 				A340D527181E8585001DC47F /* RSErrorKit */,
 				A340D53B181E8585001DC47F /* RSErrorKitTests */,
 				A340D524181E8585001DC47F /* Frameworks */,
@@ -145,14 +143,6 @@
 				A340D53E181E8585001DC47F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A340D54B181E85E8001DC47F /* Project */ = {
-			isa = PBXGroup;
-			children = (
-				A340D54C181E8619001DC47F /* Podfile */,
-			);
-			path = Project;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
