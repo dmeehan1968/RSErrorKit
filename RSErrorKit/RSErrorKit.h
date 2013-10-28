@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSObject+RSErrorKit.h"
+
+typedef void(^NSErrorHandler)(NSError *error);
 
 @interface RSErrorKit : NSObject
 

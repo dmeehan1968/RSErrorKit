@@ -5,6 +5,6 @@ podspec
 
 target :RSErrorKitTests, :exclusive => true do
 
-   pod 'Kiwi'
+   pod 'Kiwi/XCTest'
 
 end
