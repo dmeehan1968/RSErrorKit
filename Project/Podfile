@@ -1,4 +1,0 @@
-
-platform :ios
-
-podspec :podspec => '../RSErrorKit.podspec'
